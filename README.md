@@ -24,12 +24,14 @@ make precheks
 ```
 
 ### Build Project
+- Generate physical design
 ```
 make fpu
 make user_project_wrapper
 ```
 
 ### Run Simulations
+- Generate verification reports and waveforms
 
 ```
 make caravel-cocotb
@@ -49,6 +51,12 @@ make run-precheck
 ```
 
 
+## Interfaces Mapping
+
+
+
+
+## RTL verification with SystemVerilog UVM
 
 
 
