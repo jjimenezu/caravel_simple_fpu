@@ -12,3 +12,6 @@
 /dependencies
 /mgmt_core_wrapper
 /logs
+/sdf
+/venv-cocotb
+*.kate-swp

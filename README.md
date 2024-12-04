@@ -1,10 +1,57 @@
-# Caravel User Project
+# Caravel Simple FPU
+Electric Project by Jesús Jiménez :)
+EIE-UCR, December 2024
+RTL from: https://github.com/Desrep/simple_fpu
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
+## Run Project
+
+### Prerequisites
+- Python 3.8+ with PIP
+- Docker
+
+### Setup Enviroment
+- Clone repo
+```
+git clone <repo URL>
+```
+
+- Setup tools
+```
+make setup
+make precheks
+```
+
+### Build Project
+```
+make fpu
+make user_project_wrapper
+```
+
+### Run Simulations
+
+```
+make caravel-cocotb
+make caravel-cocotb
+
+# View waveforms
+gtkwave verilog/dv/cocotb/sim/
+gtkwave verilog/dv/cocotb/sim/
+```
+
+If the simulations don't run, change STAGES=6 to STAGES=1 in divide_r.v and sqrt.v (line 21 and line 23, respectively).
+
+
+### Run MPW-Precheck
+```
+make run-precheck
+```
+
+
+
+
+
+
 
 Refer to [README](docs/source/index.md) for this sample project documentation.

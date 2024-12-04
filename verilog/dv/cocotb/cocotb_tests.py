@@ -5,3 +5,5 @@ from user_proj_tests.counter_la.counter_la import counter_la
 from user_proj_tests.counter_la_reset.counter_la_reset import counter_la_reset
 from user_proj_tests.counter_la_clk.counter_la_clk import counter_la_clk
 from gpio_test.gpio_test import gpio_test
+from la_fpu_test.la_fpu_test import la_fpu_test
+from gpio_fpu_test.gpio_fpu_test import gpio_fpu_test

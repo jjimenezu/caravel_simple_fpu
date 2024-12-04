@@ -15,6 +15,16 @@
 
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
+#-v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
+-v $(USER_PROJECT_VERILOG)/rtl/special_characters.v
+-v $(USER_PROJECT_VERILOG)/rtl/fpu.v
+-v $(USER_PROJECT_VERILOG)/rtl/fp_add.v
+-v $(USER_PROJECT_VERILOG)/rtl/fp_comp.v
+-v $(USER_PROJECT_VERILOG)/rtl/fp_mul.v
+-v $(USER_PROJECT_VERILOG)/rtl/mulxbit.v
+-v $(USER_PROJECT_VERILOG)/rtl/fp_div.v
+-v $(USER_PROJECT_VERILOG)/rtl/divide_r.v
+-v $(USER_PROJECT_VERILOG)/rtl/fp_sqr.v
+-v $(USER_PROJECT_VERILOG)/rtl/sqrt.v
 
  
