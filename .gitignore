@@ -15,3 +15,4 @@
 /sdf
 /venv-cocotb
 *.kate-swp
+!/venv/bin/*
