@@ -7,7 +7,8 @@
 *.vcd
 *.gtkw
 /env
-/venv
+/venv/lib
+/venv/lib64
 /caravel
 /dependencies
 /mgmt_core_wrapper
@@ -15,4 +16,4 @@
 /sdf
 /venv-cocotb
 *.kate-swp
-!/venv/bin/*
+
